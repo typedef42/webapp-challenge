@@ -1,0 +1,20 @@
+{
+  "ignore": ["**/*.handlebars"],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": "8"
+        }
+      }
+    ],
+    "stage-1"
+  ],
+  "plugins": ["syntax-flow", "transform-decorators-legacy", "transform-flow-strip-types", "transform-class-properties"],
+  "env": {
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  }
+}
