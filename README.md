@@ -67,3 +67,8 @@ foo@bar: ~$ au run --hmr --watch
 ```
 
 Past this point, you should open your browser and go to http://localhost:8080/ and have the project page that display the info section
+
+### 03. ressources
+* [Aurelia.io](https://aurelia.io)
+* [Express](https://expressjs.com/fr/)
+* [Typescript](https://www.typescriptlang.org/)
