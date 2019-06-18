@@ -13,7 +13,7 @@ The **info** endpoint is already working, and responding some informations about
 
 The **users** endpoint is not fully implemented.
 
-*Backend objective*: Implement the `/api/users` [GET] endpoint, that grab users profile from github since user 42 and return it as a response of your own endpoint. <br/>
+> *Backend objective*: Implement the `/api/users` [GET] endpoint, that grab users profile from github since user 42 and return it as a response of your own endpoint. <br/>
 Use the *node-fetch* npm package that is already a dependency of the backend.
 (The github endpoint to use for this: `https://api.github.com/users?since=42`)
 
@@ -27,7 +27,7 @@ Everything is implemented in the html template (app.html), you don't have to edi
 The first html section display the `info` member of the app class, that is coming from the `/api/info` endpoint.<br/>
 The second html section display the `users` array of the app class.
 
-*Frontend objective*: Implement what is necessary in the app.ts viewmodel, to pull users data from your backend endpoint `/api/users`
+> *Frontend objective*: Implement what is necessary in the app.ts viewmodel, to pull users data from your backend endpoint `/api/users`
 
 ## Instruction to start 
 
