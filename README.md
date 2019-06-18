@@ -1,4 +1,4 @@
-# node-challenge
+# webapp-challenge
 
 ## Objectives
 
